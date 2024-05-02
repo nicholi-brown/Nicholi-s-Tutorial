@@ -14,7 +14,7 @@ library(readxl)
 library(viridisLite)
 
 #Register Stadia Map with custom API key (see:https://client.stadiamaps.com/dashboard/#/property/27810/ )
-register_stadiamaps( "60044334-4eea-43df-93fb-5f78c1e8c417", write = FALSE)
+register_stadiamaps( "#INSERTYOURAPIHERE", write = FALSE)
 
 #Load Stadia Map into R
 mockseal_map <- get_stadiamap(
